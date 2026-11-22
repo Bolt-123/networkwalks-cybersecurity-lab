@@ -1,0 +1,23 @@
+# Letter of Authorization — Penetration Testing & Reconnaissance
+
+**Date:** November 22, 2026  
+**Assessor:** Ramadan Adesoye (`Bolt-123`)  
+**Program:** Networkwalks Cybersecurity Lab — Week 2 (`W2-PM-FINAL`)  
+**Batch ID:** B084E  
+
+---
+
+## 1. Purpose & Authorization Scope
+This document confirms that **Ramadan Adesoye** is authorized to perform non-intrusive passive/active footprinting and local network discovery strictly within the approved educational lab scope defined by the Networkwalks Cybersecurity Curriculum:
+
+| Target Asset | Scope Type | Permitted Activities |
+| :--- | :--- | :--- |
+| `networkwalks.com` (`192.232.216.135`) | External Domain (Lab Authorized) | Passive WHOIS, DNS enumeration (`nslookup`, `dnsrecon`), HTTP header inspection (`curl`), web technology fingerprinting (`whatweb`), and WAF detection (`wafw00f`)[cite: 3, 4, 5, 6, 7]. |
+| `192.168.1.0/24` | Local Lab LAN (Assessor-Owned) | Host discovery via ICMP/ARP ping sweep (`nmap -sn`) and network topology mapping using Zenmap[cite: 12, 13, 15]. |
+
+## 2. Rules of Engagement & Restrictions
+* **Non-Destructive Testing Only:** No Denial-of-Service (DoS), brute-force authentication attacks, exploitation, or data modification is permitted.
+* **Data Handling:** All gathered technical metadata is documented solely for academic reporting and portfolio demonstration.
+
+**Assessor Signature:** Ramadan Adesoye  
+**Date:** November 22, 2026
